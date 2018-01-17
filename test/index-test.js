@@ -81,3 +81,7 @@ describe('preserveDecimal(n)', function() {
     expect(isNaN(preserveDecimal('sldkjflksjf'))).toEqual(true)
   })
 })
+function preserveDecimal(n){
+  var n = parseFloat(n)
+  return n
+}
