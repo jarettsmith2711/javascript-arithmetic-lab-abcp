@@ -42,7 +42,7 @@ it('inc(n) increments n and returns the result', function() {
 })
 
 function inc(n){
-  return (a++)
+  return (n+1)
 }
 
 it('dec(n) decrements n and returns the result', function() {
@@ -50,7 +50,7 @@ it('dec(n) decrements n and returns the result', function() {
 })
 
 function dec(n){
-  return (n--)
+  return (n-1)
 }
 
 describe('makeInt(n)', function() {
